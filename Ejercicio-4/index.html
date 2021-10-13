@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body class="bg-dark">
+    <div class="d-flex justify-content-center py-5 m-4">
+      <div class="p-5 bg-light rounded text-center">
+        <h1>Total a Pagar</h1>
+        <p id="total" class="fs-1 fw-bold"></p>
+        <br />
+        <label class="mb-2 fw-bold">Importe del cliente</label>
+        <input type="number" class="form-control" id="pago" min="1" />
+        <br />
+        <p id="men"></p>
+        <button onclick="mostrar()" class="btn btn-primary form-control">
+          Pagar
+        </button>
+      </div>
+    </div>
+    <footer class="text-center text-light fw-bold">
+      <p>&copy; Roger - 2021</p>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
